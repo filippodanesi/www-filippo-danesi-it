@@ -8,9 +8,8 @@ module.exports = {
   bracketSpacing: true,
 }
 
-'prettier/prettier': [
-  'error',
-  {
-    'endOfLine': 'auto',
-  }
-]
+module.exports = {
+  rules: {
+    "prettier/prettier": ["error", { endOfLine: "off" }],
+  },
+};
