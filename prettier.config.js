@@ -7,3 +7,10 @@ module.exports = {
   trailingComma: 'es5',
   bracketSpacing: true,
 }
+
+'prettier/prettier': [
+  'error',
+  {
+    'endOfLine': 'auto',
+  }
+]
