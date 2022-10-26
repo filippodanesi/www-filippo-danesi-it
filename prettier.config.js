@@ -7,9 +7,3 @@ module.exports = {
   trailingComma: 'es5',
   bracketSpacing: true,
 }
-
-module.exports = {
-  rules: {
-    "prettier/prettier": ["error", { endOfLine: "off" }],
-  },
-};
