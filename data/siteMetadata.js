@@ -3,10 +3,10 @@ const siteMetadata = {
   author: 'Tails Azimuth',
   headerTitle: 'TailwindBlog',
   description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  language: 'it-it',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://www.filippodanesi.it/',
+  siteRepo: 'https://github.com/filippodanesi/www-filippo-danesi-it',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
@@ -16,7 +16,7 @@ const siteMetadata = {
   facebook: 'https://facebook.com/filippodanesi3',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/filippodanesi/',
-  locale: 'en-US',
+  locale: 'it-IT',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -30,7 +30,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the
@@ -39,18 +39,17 @@ const siteMetadata = {
     // https://vercel.com/docs/environment-variables
     provider: 'giscus', // supported providers: giscus, utterances, disqus
     giscusConfig: {
-        repo="filippodanesi/www-filippo-danesi-it"
-        repo-id="R_kgDOITfCxw"
-        category="General"
-        category-id="DIC_kwDOITfCx84CSM5o"
-        mapping="pathname"
-        strict="0"
-        reactions-enabled="1"
-        emit-metadata="0"
-        input-position="bottom"
-        theme="preferred_color_scheme"
-        lang="it"
-        crossorigin="anonymous"
+        repo: process.env.filippodanesi/www-filippo-danesi-it,
+        repositoryId: process.env.R_kgDOITfCxw,
+        category: process.env.General,
+        categoryId: process.env.DIC_kwDOITfCx84CSM5o,
+        mapping: 'pathname',
+        strict: "0",
+        reactions: '1',
+        metadata: '0',
+        inputPosition: "bottom",
+        theme: 'preferred_color_scheme',
+        lang: 'it',
     },
     utterancesConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
@@ -66,7 +65,7 @@ const siteMetadata = {
     },
     disqusConfig: {
       // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-      shortname: process.env.filippodanesi,
+      shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
     },
   },
 }
