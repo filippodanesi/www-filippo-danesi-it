@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Filippo Danesi - SEO/Marketing Specialist',
   author: 'Tails Azimuth',
   headerTitle: 'Filippo Danesi',
-  description: 'Benvenuto/a nel mio blog! Qui troverai notizie e articoli vari dal mondo SEO, Digital Marketing e qualcosa dal mondo del lavoro.',
+  description: 'Ciao, mi chiamo Filippo Danesi. Sono un SEO Specialist e Web Analyst con più di due anni di esperienza nel mondo del Web Marketing.',
   language: 'it-it',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.filippodanesi.it',
