@@ -24,9 +24,8 @@ export default function Footer() {
           <Link href="/">{` Cookie Policy `}</Link>
         </div>
         <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-            Built with
           <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Tailwind Nextjs Theme
+            Built with Tailwind Nextjs Theme
           </Link>
         </div>
       </div>
