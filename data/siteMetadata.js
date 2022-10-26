@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'Benvenuto/a nel mio blog! Qui troverai notizie e articoli vari dal mondo SEO, Digital Marketing e qualcosa dal mondo del lavoro.',
   language: 'it-it',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://www.filippodanesi.it/',
+  siteUrl: 'https://www.filippodanesi.it',
   siteRepo: 'https://github.com/filippodanesi/www-filippo-danesi-it',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
