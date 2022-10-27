@@ -15,7 +15,7 @@ export default function Tags({ tags }) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a])
   return (
     <>
-      <PageSEO title={`Tags - ${siteMetadata.author}`} description="Things I blog about" />
+      <PageSEO title={`Argomenti - ${siteMetadata.author}`} description="Questi sono gli argomenti di cui parlo nel mio blog: SEO, Web Design, Digital Marketing. Parlo anche di argomenti riguardanti il mondo del lavoro e la natura." />
       <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6 md:divide-y-0">
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
@@ -23,16 +23,16 @@ export default function Tags({ tags }) {
           </h1>
         </div>
         <div className="flex max-w-lg flex-wrap">
-          {Object.keys(tags).length === 0 && 'No tags found.'}
+          {Object.keys(tags).length === 0 && 'Nessun argomento trovato.'}
           {sortedTags.map((t) => {
             return (
               <div key={t} className="mt-2 mb-2 mr-5">
                 <Tag text={t} />
                 <Link
-                  href={`/tags/${kebabCase(t)}`}
+                  href={`/argomenti/${kebabCase(t)}`}
                   className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
                 >
-                  {` (${tags[t]})`}
+                  {` (${argomenti[t]})`}
                 </Link>
               </div>
             )
