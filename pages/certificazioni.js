@@ -13,7 +13,7 @@ export default function Projects() {
             Certificazioni
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Ho ottenuto alcune certificazioni in SEO, Digital Marketing e Search Engine Marketing.
+            Avete presente le certificazioni che si ottengono dalle scuole SEO? Sì, quelle che si possono acquistare per circa 500-1000 euro. Io ne ho diverse. Ma le ho pagate? No, non le ho pagate (grazie Google, SEMRush e Cursera 🤓).
           </p>
         </div>
         <div className="container py-12">
