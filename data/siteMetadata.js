@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Filippo Danesi - SEO/Marketing Specialist',
   author: 'Filippo Danesi',
   headerTitle: 'Filippo Danesi',
-  description: 'Ciao a tutti! Grazie per aver visitato il mio sito. Spero che il mio blog sia utile in qualche modo. Se siete appassionati di SEO, Digital Marketing o business allora siete nel posto giusto!',
+  description: 'Ciao a tutti! Grazie per aver visitato il mio sito. Se siete appassionati di notizie riguardanti la SEO, il Digital Marketing o il mondo del lavoro (su questa ci provo..) allora siete nel posto giusto!',
   language: 'it-it',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.filippodanesi.it',
