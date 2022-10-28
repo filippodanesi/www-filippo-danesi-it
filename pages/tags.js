@@ -21,7 +21,7 @@ export default function Tags({ tags }) {
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
             Di cosa parlo nel mio blog?
           </h1>
-          <p className="text-xl font-extrabold leading-9 tracking-tight text-gray-500 dark:text-gray-400 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
+          <p className="text-xl font-extrabold leading-7 tracking-tight text-gray-500 dark:text-gray-400 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14 space-x-0">
             SEO, Digital Marketing, qualcosa di Web Development (anche qualcosa dal mondo del lavoro, va’)... non sarò noioso, lo prometto!
           </p>
         </div>
