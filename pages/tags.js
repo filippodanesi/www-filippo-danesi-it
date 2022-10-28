@@ -22,7 +22,7 @@ export default function Tags({ tags }) {
             Di cosa parlo nel mio blog?
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            SEO, Digital Marketing, qualcosa di Web Development... non sarò noioso, lo prometto!
+            SEO, Digital Marketing, qualcosa di Web Development (anche qualcosa dal mondo del lavoro, va’)... non sarò noioso, lo prometto!
           </p>
         </div>
         <div className="flex max-w-lg flex-wrap">
