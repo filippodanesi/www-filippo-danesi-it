@@ -25,7 +25,7 @@ export default function Home({ posts }) {
             Benvenuto/a!
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
+            Ciao a tutti e grazie per aver visitato il mio sito. Mi presento, mi chiamo Filippo Danesi e sono un SEO Specialist.  Il mio lavoro consiste nell'ottimizzare i siti web per i motori di ricerca. In altre parole, mi occupo di migliorare il posizionamento di un sito web sui risultati di ricerca di Google e altri motori di ricerca. Vorrei condividere con voi le mie conoscenze (e alcuni consigli) riguardo questo ambito, quindi se siete appassionati di notizie riguardanti la SEO, il Digital Marketing o il mondo del lavoro (su questa ci provo..) allora siete nel posto giusto!
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
