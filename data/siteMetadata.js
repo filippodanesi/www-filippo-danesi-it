@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'Le ultime novità sull&apos;ottimizzazione per i motori di ricerca - Filippo Danesi',
+  title: 'Le ultime Novità sull'Ottimizzazione per i Motori di Ricerca - Filippo Danesi',
   author: 'Filippo Danesi',
   headerTitle: 'Filippo Danesi',
-  description: 'Ciao a tutti e benvenuti sul mio blog! Se siete appassionati di notizie riguardanti l&apos;ottimizzazione per i motori di ricerca allora siete nel posto giusto!',
+  description: 'Ciao a tutti e benvenuti sul mio blog! Se siete appassionati di notizie riguardanti l'ottimizzazione per i motori di ricerca allora siete nel posto giusto!',
   language: 'it-it',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.filippodanesi.it',
