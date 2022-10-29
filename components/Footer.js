@@ -17,15 +17,11 @@ export default function Footer() {
           <div>{` Filippo Danesi `}</div>
           <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>
-          <div>{` • `}</div>
+        </div>
+        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
           <Link href="/">{` Privacy Policy `}</Link>
           <div>{` • `}</div>
           <Link href="/">{` Cookie Policy `}</Link>
-        </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Built with Tailwind Nextjs Theme
-          </Link>
         </div>
       </div>
     </footer>
