@@ -19,6 +19,7 @@ export default function Now() {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Dove mi trovo e cosa sto facendo? Cosa ho studiato? Qui troverai tutte le info su chi sono e cosa ho fatto per arrivare a lavorare come SEO Specialist e nell'ambito del Digital Marketing!
           </p>
+          </div>
         </div>
         {/* Misc */}
         <div className="flex justify-between">
