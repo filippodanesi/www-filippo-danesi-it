@@ -12,7 +12,7 @@ export default function Now() {
       />
       <div>
         <div className="my-2">
-          <h3>Where am I and what am I doing?</h3>
+          <h1>Where am I and what am I doing?</h1>
           <div className="mt-3 mb-4 text-sm">Last updated: 21 October 2022</div>
         </div>
         {/* Misc */}
