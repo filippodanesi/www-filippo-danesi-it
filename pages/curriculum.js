@@ -20,7 +20,6 @@ export default function Now() {
             Dove mi trovo e cosa sto facendo? Cosa ho studiato? Qui troverai tutte le info su chi sono e cosa ho fatto per arrivare a lavorare come SEO Specialist e nell'ambito del Digital Marketing!
           </p>
         </div>
-        </div>
         {/* Misc */}
         <div className="flex justify-between">
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
