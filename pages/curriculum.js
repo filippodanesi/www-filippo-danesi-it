@@ -16,10 +16,6 @@ export default function Projects() {
           </p>
         </div>
         <div>
-<div className="my-2">
-  <h3>Where am I and what am I doing?</h3>
-  <div className="mt-3 mb-4 text-sm">Last updated: 21 October 2022</div>
-</div>
 {/* Misc */}
 <div className="flex justify-between">
   <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
