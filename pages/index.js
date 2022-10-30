@@ -67,9 +67,9 @@ export default function Home({ posts }) {
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
+                          aria-label={`Leggi "${title}"`}
                         >
-                          Read more &rarr;
+                          Leggi l'articolo &rarr;
                         </Link>
                       </div>
                     </div>
@@ -87,7 +87,7 @@ export default function Home({ posts }) {
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="all posts"
           >
-            All Posts &rarr;
+            Tutti i post &rarr;
           </Link>
         </div>
       )}
