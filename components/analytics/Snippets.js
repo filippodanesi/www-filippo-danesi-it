@@ -7,7 +7,7 @@ const Snippets = {
     const gtm_auth = `&gtm_auth=${auth}`
     const gtm_preview = `&gtm_preview=${preview}`
 
-    if (!id) warn('GTM Id is required')
+    if (!id) warn('GTM-M8V2TNP')
     
     const iframe = `
       <iframe src="https://www.googletagmanager.com/ns.html?id=${id}${gtm_auth}${gtm_preview}&gtm_cookies_win=x"
