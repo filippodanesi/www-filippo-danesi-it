@@ -26,18 +26,18 @@ export default function Now() {
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
             <span className="font-semibold">Città:</span> <span>Mantova,</span>
             <br />
-            <span className="font-semibold">Tempo:</span> <span>4°C, sunny</span>
+            <span className="font-semibold">Azienda:</span> <span>NUR S.r.l.</span>
           </div>
 
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-2/5">
-            <span className="font-semibold">Reading:</span>{' '}
-            <span>The Idiot Brain - Dean Burnett</span>
+            <span className="font-semibold">Ruolo:</span>{' '}
+            <span>SEO Specialist</span>
             <br />
-            <span className="font-semibold">Podcast:</span> <span>The Kvowledge Project</span>
+            <span className="font-semibold">Anni di esperienza:</span> <span>4+</span>
           </div>
 
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
-            <span className="font-semibold">Eating:</span> <span>N/A</span>
+            <span className="font-semibold">Hobby:</span> <span>Fitness, Batteria, Viaggi</span>
             <br />
             <span className="font-semibold">Drinking:</span> <span>Pre-workout</span>
           </div>
