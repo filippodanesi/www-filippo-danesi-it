@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Le ultime Novità sull\'Ottimizzazione per i Motori di Ricerca - Filippo Danesi',
+  title: 'Blog di un SEO Specialist - Notizie di SEO - Filippo Danesi',
   author: 'Filippo Danesi',
   headerTitle: 'Filippo Danesi',
   description: 'Ciao a tutti e benvenuti sul mio blog! Se siete appassionati di notizie riguardanti l\'ottimizzazione per i motori di ricerca allora siete nel posto giusto!',
