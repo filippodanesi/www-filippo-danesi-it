@@ -5,31 +5,33 @@ import siteMetadata from '@/data/siteMetadata'
 export default function Now() {
   return (
     <>
-      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6 md:divide-y-0">
-        <div className="space-x-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
-            Di cosa parlo nel mio blog?
-          </h1>
+      <PageSEO
+        title={`Now - ${siteMetadata.author}`}
+        description="What I'm working on now"
+        url={siteMetadata.url}
+      />
+      <div>
+        <div className="my-2">
+          <h3>Where am I and what am I doing?</h3>
+          <div className="mt-3 mb-4 text-sm">Last updated: 21 October 2022</div>
         </div>
-      </div>
         {/* Misc */}
         <div className="flex justify-between">
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
-            <span className="font-semibold">Città:</span> <span>Mantova,</span>
+            <span className="font-semibold">Location:</span> <span>Reykjavik,</span>
             <br />
-            <span className="font-semibold">Azienda:</span> <span>NUR S.r.l.</span>
+            <span className="font-semibold">Weather:</span> <span>4°C, sunny</span>
           </div>
 
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-2/5">
-            <span className="font-semibold">Ruolo:</span>{' '}
-            <span>SEO Specialist</span>
+            <span className="font-semibold">Reading:</span>{' '}
+            <span>The Idiot Brain - Dean Burnett</span>
             <br />
-            <span className="font-semibold">Anni di esperienza:</span> <span>4+</span>
+            <span className="font-semibold">Podcast:</span> <span>The Kvowledge Project</span>
           </div>
 
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
-            <span className="font-semibold">Hobby:</span> <span>Fitness, Batteria, Viaggi</span>
+            <span className="font-semibold">Eating:</span> <span>N/A</span>
             <br />
             <span className="font-semibold">Drinking:</span> <span>Pre-workout</span>
           </div>
