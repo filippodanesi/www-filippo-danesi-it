@@ -1,5 +1,7 @@
 import Snippets from './Snippets'
 
+import siteMetadata from '@/data/siteMetadata'
+
 const TagManager = {
   dataScript: function (dataLayer) {
     const script = document.createElement('script')
