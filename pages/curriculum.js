@@ -6,15 +6,11 @@ export default function Now() {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Benvenuto/a!
+      <div className="flex flex-col items-start justify-start divide-y divide-gray-200 dark:divide-gray-700 md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6 md:divide-y-0">
+        <div className="space-x-2 pt-6 pb-8 md:space-y-5">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:border-r-2 md:px-6 md:text-6xl md:leading-14">
+            Di cosa parlo nel mio blog?
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Ciao a tutti e grazie per aver visitato il mio sito. Mi presento, mi chiamo Filippo Danesi e sono un SEO Specialist.  Il mio lavoro consiste nell'ottimizzare i siti web per i motori di ricerca. In altre parole, mi occupo di migliorare il posizionamento di un sito web sui risultati di ricerca di Google e altri motori di ricerca. Vorrei condividere con voi le mie conoscenze (e alcuni consigli) riguardo questo ambito, quindi se siete appassionati di notizie riguardanti la SEO, il Digital Marketing o il mondo del lavoro (su questa ci provo..) allora siete nel posto giusto!
-          </p>
-        </div>
         </div>
         {/* Misc */}
         <div className="flex justify-between">
