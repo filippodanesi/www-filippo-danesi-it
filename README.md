@@ -1,4 +1,4 @@
-![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
+![tailwind-nextjs-banner](/public/static/images/github-cover.png)
 
 # Filippo Danesi's Blog [https://www.filippodanesi.it](https://www.filippodanesi.it)
 
