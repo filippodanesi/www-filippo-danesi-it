@@ -19,17 +19,6 @@ export default function Projects() {
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
           <Clients />
-          <h1 className="py-6 text-center ">
-            <RoughNotation
-              animate="true"
-              animationDelay="1000"
-              animationDuration="4000"
-              type="circle"
-              color="#5DE4c7"
-              show={true}
-              strokeWidth="3"
-            >
-            ))}
           </div>
         </div>
       </div>
