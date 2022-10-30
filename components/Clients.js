@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { RoughNotation } from "react-rough-notation";
 
 export default function Work() {
   return (
