@@ -12,6 +12,7 @@ export default function Now() {
             Di cosa parlo nel mio blog?
           </h1>
         </div>
+      </div>
         {/* Misc */}
         <div className="flex justify-between">
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
