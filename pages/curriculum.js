@@ -6,21 +6,21 @@ export default function Now() {
   return (
     <>
       <PageSEO
-        title={`Lavoro come SEO Specialist e Digital Strategisti - ${siteMetadata.author}`}
+        title={`Lavoro come SEO Specialist e Digital Strategist - ${siteMetadata.author}`}
         description="Curriculum"
         url={siteMetadata.url}
       />
       <div>
         <div className="my-2">
-          <h3>Where am I and what am I doing?</h3>
+          <h3>Dove sono e cosa sto facendo?</h3>
           <div className="mt-3 mb-4 text-sm">Last updated: 21 October 2022</div>
         </div>
         {/* Misc */}
         <div className="flex justify-between">
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
-            <span className="font-semibold">Location:</span> <span>Mantova,</span>
+            <span className="font-semibold">Città:</span> <span>Mantova,</span>
             <br />
-            <span className="font-semibold">Weather:</span> <span>4°C, sunny</span>
+            <span className="font-semibold">Tempo:</span> <span>4°C, sunny</span>
           </div>
 
           <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-2/5">
