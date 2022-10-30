@@ -17,10 +17,9 @@ export default function Now() {
             Benvenuto/a!
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Ciao a tutti e grazie per aver visitato il mio sito. Mi presento, mi chiamo Filippo Danesi e sono un SEO Specialist.  Il mio lavoro consiste nell'ottimizzare i siti web per i motori di ricerca. In altre parole, mi occupo di migliorare il posizionamento di un sito web sui risultati di ricerca di Google e altri motori di ricerca. Vorrei condividere con voi le mie conoscenze (e alcuni consigli) riguardo questo ambito, quindi se siete appassionati di notizie riguardanti la SEO, il Digital Marketing o il mondo del lavoro (su questa ci provo..) allora siete nel posto giusto!
+            Dove mi trovo e cosa sto facendo? Cosa ho studiato? Qui troverai tutte le info su chi sono e cosa ho fatto per arrivare a lavorare come SEO Specialist e nell'ambito del Digital Marketing!
           </p>
         </div>
-          <div className="mt-3 mb-4 text-sm">Ultimo aggiornamento: 30 Ottobre 2022</div>
         </div>
         {/* Misc */}
         <div className="flex justify-between">
