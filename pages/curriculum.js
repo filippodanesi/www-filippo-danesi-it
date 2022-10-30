@@ -13,7 +13,7 @@ export default function Now() {
       <div>
         <div className="my-2">
           <h3>Dove sono e cosa sto facendo?</h3>
-          <div className="mt-3 mb-4 text-sm">Last updated: 21 October 2022</div>
+          <div className="mt-3 mb-4 text-sm">Ultimo aggiornamento: 30 Ottobre 2022</div>
         </div>
         {/* Misc */}
         <div className="flex justify-between">
