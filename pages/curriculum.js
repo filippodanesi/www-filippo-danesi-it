@@ -17,7 +17,7 @@ export default function Projects() {
         </div>
         <div>
 {/* Work */}
-<div className="pb-4">
+<div className="space-y-2 pt-6 pb-4 md:space-y-5">
   <span>
     I work as a software developer at{' '}
     <Link
