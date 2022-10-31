@@ -17,7 +17,7 @@ export default function Projects() {
         </div>
         <div>
 {/* Work */}
-<div className="pt-6 pb-4">
+<div className="pt-6 pb-4 text-gray-500 dark:text-gray-400">
   <span>
     I work as a software developer at{' '}
     <Link
