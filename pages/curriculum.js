@@ -17,7 +17,7 @@ export default function Projects() {
         </div>
         <div>
 {/* Work */}
-<div className="pt-6 pb-4 text-gray-500 dark:text-gray-400">
+<div className="pt-6 pb-4 text-gray-700 dark:text-gray-300">
   <span>
     I work as a software developer at{' '}
     <Link
@@ -69,7 +69,7 @@ export default function Projects() {
 </div>
 
 {/* Personal life */}
-<div className="pt-6">
+<div className="pt-6 text-gray-700 dark:text-gray-300">
   <p>
     I've been slowly building this website, trying to share interesting things with anyone
     who wants to read it.{' '}
@@ -99,7 +99,7 @@ export default function Projects() {
   </p>
   <br />
 </div>
-<div className="mt-3 text-sm">
+<div className="mt-3 text-sm text-gray-700 dark:text-gray-300">
   For more examples of folks with /now pages, check out{' '}
   <Link
     href={'https://nownownow.com/'}
