@@ -1,5 +1,4 @@
 import GA from './GoogleAnalytics'
-import Posthog from './Posthog'
 import Plausible from './Plausible'
 import SimpleAnalytics from './SimpleAnalytics'
 import siteMetadata from '@/data/siteMetadata'
@@ -12,7 +11,6 @@ const Analytics = () => {
       {isProduction && siteMetadata.analytics.plausibleDataDomain && <Plausible />}
       {isProduction && siteMetadata.analytics.simpleAnalytics && <SimpleAnalytics />}
       {isProduction && siteMetadata.analytics.googleAnalyticsId && <GA />}
-      {isProduction && siteMetadata.analytics.posthogAnalyticsId && <Posthog />}
     </>
   )
 }
