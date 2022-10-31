@@ -16,27 +16,6 @@ export default function Projects() {
           </p>
         </div>
         <div>
-{/* Misc */}
-<div className="flex justify-between space-y-2 pt-6 pb-8 md:space-y-5">
-  <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
-    <span className="font-semibold">Location:</span> <span>Mantova,</span>
-    <br />
-    <span className="font-semibold">Weather:</span> <span>4°C, sunny</span>
-  </div>
-
-  <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-2/5">
-    <span className="font-semibold">Reading:</span>{' '}
-    <span>The Idiot Brain - Dean Burnett</span>
-    <br />
-    <span className="font-semibold">Podcast:</span> <span>The Kvowledge Project</span>
-  </div>
-
-  <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
-    <span className="font-semibold">Eating:</span> <span>N/A</span>
-    <br />
-    <span className="font-semibold">Drinking:</span> <span>Pre-workout</span>
-  </div>
-</div>
 {/* Work */}
 <div className="pb-4">
   <span>
