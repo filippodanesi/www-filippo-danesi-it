@@ -22,7 +22,7 @@ export default function Projects() {
     Attualmente lavoro come SEO Specialist presso {' '}
     <Link
       href={'https://www.nur.it'}
-      className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
+      
     >
       NUR{' '}
     </Link>
