@@ -17,7 +17,7 @@ export default function Projects() {
         </div>
         <div>
 {/* Misc */}
-<div className="flex justify-between">
+<div className="flex justify-betwee space-y-2 pt-6 pb-8 md:space-y-5n">
   <div className="text-sm p-1 mt-2 mb-10 border border-gray-600 dark:border-gray-200 rounded-md w-1/4">
     <span className="font-semibold">Location:</span> <span>Mantova,</span>
     <br />
