@@ -22,9 +22,9 @@ export default function Projects() {
     Attualmente lavoro come SEO Specialist presso {' '}
     <Link
       href={'https://www.nur.it'}
-      className="special-underline text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
+      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      NUR{' '}
+      NUR.{' '}
     </Link>
     <br />
   </span>
@@ -42,7 +42,7 @@ export default function Projects() {
     È proprio per questo che ho deciso di iniziare il mio percorso frequentando un corso in Web Design presso l'{' '}
     <Link
       href={'https://www.modartech.com/'}
-      className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
+      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
       Istituto Modartech.
     </Link>
@@ -53,7 +53,7 @@ export default function Projects() {
     la{' '}
     <Link
       href={'https://www.brand-store.it/'}
-      className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
+      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
       Brand-Store.
     </Link>
@@ -74,7 +74,7 @@ export default function Projects() {
     who wants to read it.{' '}
     <Link
       href={'https://www.swyx.io/learn-in-public'}
-      className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
+      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
       This
     </Link>{' '}
@@ -86,7 +86,7 @@ export default function Projects() {
     towards beginners.
     <Link
       href={'http://einargudni.com/my-books'}
-      className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
+      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
       It's available here.
     </Link>
@@ -102,7 +102,7 @@ export default function Projects() {
   For more examples of folks with /now pages, check out{' '}
   <Link
     href={'https://nownownow.com/'}
-    className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
+    className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
   >
     nownownow.com
   </Link>
