@@ -19,44 +19,43 @@ export default function Projects() {
 {/* Work */}
 <div className="pt-6 pb-4 text-gray-700 dark:text-gray-300">
   <span>
-    I work as a software developer at{' '}
+    Attualmente lavoro come SEO Specialist presso {' '}
     <Link
-      href={'https://maul.is'}
+      href={'https://www.nur.it'}
       className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
     >
-      Maul{' '}
+      NUR{' '}
     </Link>
     <br />
   </span>
-  <p>We deliver various and delicous lunch to workplaces in Reykjavík.</p>
+  <p>Il mio ruolo consiste nell'ottimizzare i siti web per i motori di ricerca. In altre parole, faccio in modo che i siti web vengano visualizzati nei primi risultati di ricerca per le parole chiave appropriate. Ciò può essere ottenuto attraverso diversi metodi, come la creazione di contenuti di alta qualità, il miglioramento del codice del sito e la creazione di link verso altri siti web.</p>
   <br />
-  <p>
-    We at Maul strive to improve the quality of your lunch by offering courses from multiple
-    restaurants and saving you from the constant "what should I have for lunch" conundrum.
+  <p className="font-bold">
+    Ma come sono arrivato a ricoprire il ruolo di SEO Specialist?
   </p>
   <br />
   <p>
-    We've been spending a significant time and effort to make our internal tools better. We
-    are delivering around 7000 portions of food per week. Our daily operations team was in
-    need of better tools to help them manage the daily operations. This will also help us
-    re-phrasing some issues we've bee dealing with before. Now the operations team can solve
-    some problems that previously they needed the software team help.
+    Diciamo che non c'è un percorso universale per diventare un SEO Specialist, ma ci sono alcune cose che la maggior parte degli esperti hanno in comune. La prima è una solida comprensione dei fondamenti del marketing su Internet. Questo include conoscenze di base di come funziona il web e dei principali fattori che influenzano il posizionamento di un sito nei risultati di ricerca.
   </p>
   <br />
   <p>
-    I'm almost finished with updating our data to match our new data structure. This had a
-    lot of tinkering and updating data. This is also a step towards making our billing
-    system better. It works, but it's not very user friendly.
-  </p>
-  <br />
-  <p>
-    I finished the TypeScript basics course and I've started on the Everyday TypeScript
-    course on{' '}
+    È proprio per questo che ho deciso di iniziare il mio percorso frequentando un corso in Web Design presso l'{' '}
     <Link
-      href={'https://www.executeprogram.com/courses'}
+      href={'https://www.modartech.com/'}
       className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
     >
-      Execute Programming.
+      Istituto Modartech.
+    </Link>
+  </p>
+  <br />
+  <p>
+    Grazie a questa esperienza ho iniziato a lavoroare come E-Commerce Specialist presso
+    la{' '}
+    <Link
+      href={'https://www.brand-store.it/'}
+      className="special-underline hover:dark:text-gray-800 dark:text-gray-100 no-underline"
+    >
+      Brand-Store.
     </Link>
   </p>
   <p>
