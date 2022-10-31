@@ -12,7 +12,12 @@ import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
+import {useEffect} from 'react'
+import {useRouter} from 'next/router'
+
 import Script from 'next/script'
+
+import * as ga from '../lib/google-tag-manager'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
