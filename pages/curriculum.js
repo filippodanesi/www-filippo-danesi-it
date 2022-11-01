@@ -31,9 +31,9 @@ export default function Projects() {
   </span>
   <p>Il mio ruolo consiste nell'ottimizzare i siti web per i motori di ricerca. In altre parole, faccio in modo che i siti web vengano visualizzati nei primi risultati di ricerca per le parole chiave appropriate. Ciò può essere ottenuto attraverso diversi metodi, come la creazione di contenuti di alta qualità, il miglioramento del codice del sito e la creazione di link verso altri siti web.</p>
   <br />
-  <p className="font-bold">
+  <h2 className="text-2xl font-bold leading-8 tracking-tight">
     Ma come sono arrivato a ricoprire il ruolo di SEO Specialist?
-  </p>
+  </h2>
   <br />
   <p>
     Diciamo che non c'è un percorso universale per diventare un SEO Specialist, ma ci sono alcune cose che la maggior parte degli esperti hanno in comune. La prima è una solida comprensione dei fondamenti del marketing su Internet. Questo include conoscenze di base di come funziona il web e dei principali fattori che influenzano il posizionamento di un sito nei risultati di ricerca.
@@ -60,8 +60,11 @@ export default function Projects() {
     </Link>
   </p>
   <p>
-    I like the execute programming method of courses since they use spaced-repition. I
-    believe that is on of the best way to learn.
+    Questa esperienza mi ha permesso di apprezzare al meglio tutti gli aspetti della gestione di un sito web e mi ha "introdotto" al mondo della SEO.
+  </p>
+    <br />
+   <p>
+    Da lì decisi che era giunto il momento di iniziare questo percorso e MAGIA...., sono ufficialmente diventato un SEO Specialist.
   </p>
 </div>
 <div className="font-medium text-2xl justify-center dark:text-gray-600 text-gray-200 text-center">
