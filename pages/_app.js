@@ -45,15 +45,15 @@ export default function App({ Component, pageProps }) {
       {isDevelopment && isSocket && <ClientReload />}
       <LayoutWrapper>
         <Component {...pageProps} />
-               <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} strategy='afterInteractive' />
-        <Script id="google-tag-manager" strategy='afterInteractive'>
-        {`
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} strategy='afterInteractive' />
+          <Script id="google-tag-manager" strategy='afterInteractive' />
+          {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
-        `}
+          `}
       </LayoutWrapper>
     </ThemeProvider>
   )
