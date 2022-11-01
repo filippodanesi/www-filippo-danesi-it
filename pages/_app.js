@@ -41,7 +41,12 @@ export default function App({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} strategy='afterInteractive' />
+      </Script>
+      </Head>
+      {isDevelopment && isSocket && <ClientReload />}
+      <LayoutWrapper>
+        <Component {...pageProps} />
+               <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`} strategy='afterInteractive' />
         <Script id="google-tag-manager" strategy='afterInteractive'>
         {`
           window.dataLayer = window.dataLayer || [];
@@ -50,11 +55,6 @@ export default function App({ Component, pageProps }) {
 
           gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
         `}
-      </Script>
-      </Head>
-      {isDevelopment && isSocket && <ClientReload />}
-      <LayoutWrapper>
-        <Component {...pageProps} />
       </LayoutWrapper>
     </ThemeProvider>
   )
