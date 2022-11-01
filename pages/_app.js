@@ -12,22 +12,6 @@ import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Router from 'react-router'
-import routes from './routes'
-
-import TagManager from 'react-gtm-module'
-
-const tagManagerArgs = {
-    gtmId: 'GTM-M8V2TNP'
-}
-
-TagManager.initialize(tagManagerArgs)
-
-const app = document.getElementById('app')
-ReactDOM.render(<Router routes={routes} />, app)
-
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
