@@ -12,14 +12,6 @@ import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
-import TagManager from 'react-gtm-module'
-
-const tagManagerArgs = {
-    gtmId: 'GTM-M8V2TNP'
-}
-
-TagManager.initialize(tagManagerArgs)
-
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Router from 'react-router'
