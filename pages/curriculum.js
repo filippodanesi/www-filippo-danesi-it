@@ -34,6 +34,7 @@ export default function Projects() {
   <h2 className="text-2xl font-bold leading-8 text-gray-900 dark:text-gray-100 tracking-tight">
     Ma come sono arrivato a ricoprire il ruolo di SEO Specialist?
   </h2>
+  <br />
   <p>
     Diciamo che non c'è un percorso universale per diventare un SEO Specialist, ma ci sono alcune cose che la maggior parte degli esperti hanno in comune. La prima è una solida comprensione dei fondamenti del marketing su Internet. Questo include conoscenze di base di come funziona il web e dei principali fattori che influenzano il posizionamento di un sito nei risultati di ricerca.
   </p>
