@@ -37,7 +37,7 @@ export default function Projects() {
   <br />
   <br />
   <h2 className="text-3xl font-bold leading-8 text-gray-900 dark:text-gray-100 tracking-tight">
-    Ma come sono arrivato a ricoprire il ruolo di SEO Specialist?
+    Come sono arrivato a ricoprire il ruolo di SEO Specialist?
   </h2>
   <br />
   <p>
