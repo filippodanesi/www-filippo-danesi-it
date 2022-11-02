@@ -18,14 +18,18 @@ export default function Projects() {
         <div>
 {/* Work */}
 <div className="pt-6 pb-4 text-gray-700 dark:text-gray-300">
+  <h2 className="text-3xl font-bold leading-8 text-gray-900 dark:text-gray-100 tracking-tight">
+    Cosa sto facendo attualmente?
+  </h2>
   <span>
-    Attualmente lavoro come SEO Specialist presso {' '}
+    In questo momento lavoro come SEO Specialist presso {' '}
     <Link
       href={'https://www.nur.it'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
       NUR.{' '}
     </Link>
+    <p>E sì, mi piace moooooolto :)</p>
     <br />
     <br />
   </span>
@@ -75,15 +79,15 @@ export default function Projects() {
 {/* Personal life */}
 <div className="pt-6 text-gray-700 dark:text-gray-300">
   <p>
-    I've been slowly building this website, trying to share interesting things with anyone
-    who wants to read it.{' '}
+    Quando non lavoro ho molto hobby: suono la batteria da oltre 10 anni, pratico fitness a livello amatoriale, adoro viaggiare e confrontarmi con nuove culture e scoprire nuove destinazioni. 
+    La mia passione per il web mi ha anche portato a sviluppare{' '}
     <Link
-      href={'https://www.swyx.io/learn-in-public'}
+      href={'https://www.filippodanesi.it/blog'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
       This
     </Link>{' '}
-    article is a great reason to start your blog.
+    sito web dove vorrei parlare delle ultime notizie sulla SEO, il Digital Marketing e magari confrontami con voi su altri argomenti come il mondo del lavoro e i cambiamenti del nostro pianeta (sì, mi piace spaziare :D).
   </p>
   <br />
   <p>
