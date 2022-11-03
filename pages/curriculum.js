@@ -78,42 +78,43 @@ export default function Projects() {
 {/* Personal life */}
 <div className="pt-6 text-gray-700 dark:text-gray-300">
   <p>
-    Quando non lavoro ho molto hobby: suono la batteria da oltre 10 anni, pratico fitness a livello amatoriale, adoro viaggiare e confrontarmi con nuove culture e scoprire nuove destinazioni. 
-    La mia passione per il web mi ha anche portato a sviluppare{' '}
+    Quando non lavoro ho molti hobby: suono la batteria da oltre 10 anni, pratico fitness a livello amatoriale, adoro viaggiare e confrontarmi con nuove culture e scoprire nuove destinazioni. 
+    La mia passione per il web mi ha anche portato a sviluppare questo{' '}
     <Link
       href={'https://www.filippodanesi.it/blog'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      This
+      blog
     </Link>{' '}
     sito web dove vorrei parlare delle ultime notizie sulla SEO, il Digital Marketing e magari confrontami con voi su altri argomenti come il mondo del lavoro e i cambiamenti del nostro pianeta (sì, mi piace spaziare :D).
   </p>
   <br />
   <p>
-    I published a short e-book about how to make LaTeX templates for your homework, aimed
-    towards beginners.
+    Per un periodo ho scritto sul quotidiano Uni Info News di argomenti riguardanti principalmente la
+    psicologia e la sociologia.
     <Link
-      href={'http://einargudni.com/my-books'}
+      href={'https://www.uninfonews.it/author/filippo-danesi/'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      It's available here.
+      Trovate la mia pagina qui.
     </Link>
   </p>
   <br />
   <p>
-    I've been spending some time updating my Obsidian vault. I feel like my system helps me
-    be more productive. I'll share it with you soon.
+    Sono sempre interessato ad ascoltare ex colleghi, manager o semplicemente persone che lavorano nell'ambito del Digital Marketing,
+    quindi non esitare a contattarmi, vi risponderò il prima possibile :)
   </p>
   <br />
 </div>
 <div className="mt-3 text-sm text-gray-700 dark:text-gray-300">
-  For more examples of folks with /now pages, check out{' '}
+  Per contattarmi mandate pure una mail al mio indirizzo personale{' '}
   <Link
     href={'https://nownownow.com/'}
     className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
   >
-    nownownow.com
+    cliccando qui
   </Link>
+  .
 </div>
 </div>
       </div>
