@@ -100,7 +100,7 @@ export default function Projects() {
     >
        Uni Info News
     </Link>
-    di argomenti riguardanti principalmente la psicologia e la sociologia.
+     {' '} di argomenti riguardanti principalmente la psicologia e la sociologia.
   </p>
   <br />
   <p>
