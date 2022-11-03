@@ -28,9 +28,8 @@ export default function Projects() {
       href={'https://www.nur.it'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      NUR{' '}
+      NUR.{' '}
     </Link>
-    .
   </span>
   <br />
   <br />
