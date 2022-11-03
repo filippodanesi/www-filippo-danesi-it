@@ -93,14 +93,14 @@ export default function Projects() {
   </p>
   <br />
   <p>
-    Per un periodo ho scritto sul quotidiano Uni Info News di argomenti riguardanti principalmente la
-    psicologia e la sociologia.
+    Per un periodo ho scritto sul quotidiano {' '}
     <Link
       href={'https://www.uninfonews.it/author/filippo-danesi/'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-       Trovate la mia pagina qui.
+       Uni Info News
     </Link>
+    di argomenti riguardanti principalmente la psicologia e la sociologia.
   </p>
   <br />
   <p>
