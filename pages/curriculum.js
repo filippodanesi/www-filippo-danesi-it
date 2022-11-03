@@ -28,8 +28,9 @@ export default function Projects() {
       href={'https://www.nur.it'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      NUR.{' '}
+      NUR{' '}
     </Link>
+    .
   </span>
   <br />
   <p>Il mio ruolo consiste nell'ottimizzare i siti web per i motori di ricerca. In altre parole, faccio in modo che i siti web vengano visualizzati nei primi risultati di ricerca per le parole chiave appropriate. Ciò può essere ottenuto attraverso diversi metodi, come la creazione di contenuti di alta qualità, il miglioramento del codice del sito e la creazione di link verso altri siti web.</p>
@@ -49,8 +50,9 @@ export default function Projects() {
       href={'https://www.modartech.com/'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      Istituto Modartech.
+      Istituto Modartech
     </Link>
+    .
   </p>
   <br />
   <p>
@@ -60,8 +62,9 @@ export default function Projects() {
       href={'https://www.brand-store.it/'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      Brand-Store.
+      Brand-Store
     </Link>
+    .
   </p>
   <p>
     Questa esperienza mi ha permesso di apprezzare al meglio tutti gli aspetti della gestione di un sito web e mi ha "introdotto" al mondo della SEO.
@@ -96,7 +99,7 @@ export default function Projects() {
       href={'https://www.uninfonews.it/author/filippo-danesi/'}
       className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
     >
-      Trovate la mia pagina qui.
+       Trovate la mia pagina qui.
     </Link>
   </p>
   <br />
@@ -109,7 +112,7 @@ export default function Projects() {
 <div className="mt-3 text-sm text-gray-700 dark:text-gray-300">
   Per contattarmi mandate pure una mail al mio indirizzo personale{' '}
   <Link
-    href={'https://nownownow.com/'}
+    href={'mailto:filippo.danesi93@gmail.com?subject=Contatto%20da%20sito%20web'}
     className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-300" 
   >
     cliccando qui
