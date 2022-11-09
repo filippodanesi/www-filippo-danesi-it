@@ -19,7 +19,7 @@ import { ClientReload } from '@/components/ClientReload'
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }) {
   useEffect(() => {
     window.dataLayer.push({
       event: "pageView",
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
-         <Script id="google-tag-manager" strategy="afterInteractive">
+        <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
