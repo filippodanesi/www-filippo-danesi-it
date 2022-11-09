@@ -8,6 +8,8 @@ import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 
 import Script from "next/script";
+import { useEffect } from "react";
+import type { AppProps } from "next/app";
 
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
@@ -17,26 +19,36 @@ import { ClientReload } from '@/components/ClientReload'
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    window.dataLayer.push({
+      event: "pageView",
+      page: window.location.href,
+      ...pageProps.dataLayerProps,
+    });
+  }, [pageProps.dataLayerProps]);
   return (
-    <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
+    <>
+     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
-        <Script id="google-tag-manager" strategy="afterInteractive">
-          {`
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-M8V2TNP');
-          `}
-        </Script>
+      <Script id="google-tag-manager" strategy="afterInteractive">
+        {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','${GTM_ID}');
+        `}
+      </Script>
       <LayoutWrapper>
         <Component {...pageProps} />
       </LayoutWrapper>
-    </ThemeProvider>
-  )
+    </>
+  );
 }
+
+export default MyApp;
