@@ -7,9 +7,9 @@ import '@fontsource/inter/variable-full.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 
-import Script from "next/script";
-import { useEffect } from "react";
-import type { AppProps } from "next/app";
+import Script from 'next/script'
+import { useEffect } from 'react'
+import type { AppProps } from 'next/app'
 
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
