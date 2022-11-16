@@ -14,7 +14,6 @@ import { useEffect } from 'react'
 import { AppProps } from 'next/app'
 
 import siteMetadata from '@/data/siteMetadata'
-import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
