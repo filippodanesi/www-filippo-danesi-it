@@ -7,6 +7,8 @@ import '@fontsource/inter/variable-full.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 
+import { Analytics } from '@vercel/analytics/react';
+
 import Script from 'next/script'
 import { useEffect } from 'react'
 import { AppProps } from 'next/app'
