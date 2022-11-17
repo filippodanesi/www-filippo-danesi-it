@@ -33,10 +33,10 @@ module.exports = {
         sans: ['Be Vietnam Pro', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.violet,
+        primary: colors.blue,
         gray: colors.slate,
         violet: {
-          ...colors.violet,
+          ...colors.blue,
           30: '#f9f4fc',
           950: '#170a2d',
           1000: '#120724',
