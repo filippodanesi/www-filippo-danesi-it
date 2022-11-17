@@ -1,12 +1,8 @@
+import SocialIcon from '@/components/social-icons'
+import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
-import type { Authors } from 'contentlayer/generated'
-import { ReactNode } from 'react'
-interface Props {
-  children: ReactNode
-  content: Omit<Authors, '_id' | '_raw' | 'body'>
-}
 
-export default function UsesLayout({ children, content }: Props) {
+export default function UsesLayout({ children, content }) {
   const { name } = content
 
   return (
