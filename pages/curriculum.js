@@ -1,17 +1,21 @@
-import siteMetadata from '@/data/siteMetadata'
-import Link from '@/components/Link'
-import { PageSEO } from '@/components/SEO'
+import { MDXLayoutRenderer } from '@/components/MDXComponents'
+import { getFileBySlug } from '@/lib/mdx'
 
 const DEFAULT_LAYOUT = 'UsesLayout'
 
-export const getStaticProps = async () => {
-  const author = allAuthors.find((p) => p.slug === 'uses')
-  return { props: { author } }
+export async function getStaticProps() {
+  const authorDetails = await getFileBySlug('authors', ['default'])
+  return { props: { authorDetails } }
 }
-export default function About({ author }: InferGetStaticPropsType<typeof getStaticProps>) {
+
+export default function About({ authorDetails }) {
+  const { mdxSource, frontMatter } = authorDetails
+
   return (
-    <MainLayout>
-      {author && <MDXLayoutRenderer layout={DEFAULT_LAYOUT} content={author} />}
-    </MainLayout>
+    <MDXLayoutRenderer
+      layout={frontMatter.layout || DEFAULT_LAYOUT}
+      mdxSource={mdxSource}
+      frontMatter={frontMatter}
+    />
   )
 }
