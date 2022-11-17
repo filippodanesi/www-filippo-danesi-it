@@ -163,40 +163,6 @@ module.exports = {
           },
         },
       }),
-      keyframes: {
-        'fade-away': {
-          '0%': {
-            opacity: 1,
-          },
-          '100%': {
-            opacity: 0.2,
-          },
-        },
-        shrink: {
-          '0% , 100%': {
-            height: '0.75rem',
-          },
-          '50%': {
-            height: '0.375rem',
-          },
-        },
-        expand: {
-          '0% , 100%': {
-            height: '0.375rem',
-          },
-          '50%': {
-            height: '0.75rem',
-          },
-        },
-      },
-      animation: {
-        'fade-text': '10s ease-in-out 3s 1 normal forwards running fade-away',
-        shrink: 'shrink 1.5s infinite',
-        expand: 'expand 1.5s infinite',
-      },
-    },
-  },
-      }),
     },
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
