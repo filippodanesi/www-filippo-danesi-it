@@ -30,6 +30,7 @@ module.exports = {
       colors: {
         primary: colors.blue,
         gray: colors.neutral,
+        'spotify-green': '#1DB954'
       },
       typography: (theme) => ({
         DEFAULT: {
