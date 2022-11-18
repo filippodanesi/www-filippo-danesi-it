@@ -1,14 +1,3 @@
----
-name: Dale Larroder
-avatar: /static/images/avatar.webp
-occupation: Software Engineer at
-company: Aphex
-email: dalelarroder@gmail.com
-twitter: https://twitter.com/dalelarroder
-linkedin: https://www.linkedin.com/in/dale-larroder/
-github: https://github.com/dlarroder
----
-
 ## Editor
 
 <ul>
