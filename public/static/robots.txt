@@ -1,7 +1,4 @@
 User-agent: *
 Disallow: /
 
-User-agent: OnCrawl
-Disallow:/
-
 Sitemap: https://www.filippodanesi.it/sitemap.xml
