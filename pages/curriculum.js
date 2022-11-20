@@ -1,4 +1,3 @@
-import useTranslation from 'next-translate/useTranslation'
 import { getAllFilesFrontMatter, getFileBySlug } from '@/lib/mdx'
 import siteMetadata from '@/data/siteMetadata'
 import ListLearningLayout from '@/layouts/ListLearningLayout'
@@ -29,7 +28,6 @@ export default function Learning({
   locale,
   availableLocales,
 }) {
-  const { t } = useTranslation()
   return (
     <>
       <PageSEO
