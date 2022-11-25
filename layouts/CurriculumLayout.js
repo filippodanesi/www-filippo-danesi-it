@@ -7,7 +7,7 @@ export default function AuthorLayout({ children, frontMatter }) {
 
   return (
     <>
-      <PageSEO title={`Lavoro come SEO Specialist da più di due anni - ${name}`} description={`Ciao! Mi chiamo Filippo Danesi (sì l'ho detto molte volte) e mi occupo di ottimizzazione sui motori di ricerca (SEO) e strategie di Digital Marketing.`} />
+      <PageSEO title={`Lavoro come SEO Specialist da Più di Due Anni - ${name}`} description={`Mi occupo di ottimizzazione sui motori di ricerca, strategie digital marketing e e-commerce di più di due anni`} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
