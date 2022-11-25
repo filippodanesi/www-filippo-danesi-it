@@ -4,7 +4,7 @@ import { getFileBySlug } from '@/lib/mdx'
 const DEFAULT_LAYOUT = 'AuthorLayout'
 
 export async function getStaticProps() {
-  const authorDetails = await getFileBySlug('author', ['curriculum'])
+  const authorDetails = await getFileBySlug('authors', ['curriculum'])
   return { props: { authorDetails } }
 }
 
