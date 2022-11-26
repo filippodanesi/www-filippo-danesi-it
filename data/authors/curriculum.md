@@ -1,4 +1,4 @@
-## Editor
+## Esperienze
 
 <ul>
   <li>
@@ -16,7 +16,7 @@
   </li>
 </ul>
 
-## Terminal
+## Istruzione
 
 <ul>
   <li>I use [Hyper](https://hyper.is/) when I'm on Ubuntu and Mac.</li>
@@ -31,7 +31,7 @@
   </li>
 </ul>
 
-## Desktop Apps
+## Certificazioni
 
 <ul>
   <li>[Brave](https://brave.com/) is my main browser for both browsing and development.</li>
