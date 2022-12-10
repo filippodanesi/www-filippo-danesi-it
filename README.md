@@ -1,4 +1,4 @@
-![github-project-banner](/public/static/images/github-project-banner.png)
+![personal-blog-project-banner](/public/static/images/personal-blog-project-banner.png)
 
 # Filippo Danesi's Blog [https://www.filippodanesi.it](https://www.filippodanesi.it)
 
