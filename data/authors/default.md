@@ -1,6 +1,6 @@
 ---
 name: Filippo Danesi
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar.jpg
 occupation: SEO/Marketing Specialist
 company: NUR S.r.l.
 email: info@filippodanesi.it
