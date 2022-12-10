@@ -1,4 +1,4 @@
-![tailwind-nextjs-banner](/public/static/images/github-project-cover.png)
+![github-project-banner](/public/static/images/github-project-banner.png)
 
 # Filippo Danesi's Blog [https://www.filippodanesi.it](https://www.filippodanesi.it)
 
